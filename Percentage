@@ -1,0 +1,31 @@
+/*  You need to create an app that calculates and outputs percentage.
+The given code declares two integer variables: number and perc.
+You need to calculate the perc percentage of number and output it. 
+Hint: To calculate perc percent of number, multiply number by perc, then divide the result by 100.
+
+#include <stdio.h>
+int main() {
+    int number = 250;
+    int perc = 24;
+    //complete the code
+    int result;
+    printf("%d", result);
+    return 0;
+}
+
+*/
+
+#include <stdio.h>
+
+int main() {
+    int number = 250;
+    int perc = 24;
+    
+    //complete the code
+    int result = number*perc/100;
+
+    printf("%d", result);
+
+    return 0;
+}
+
